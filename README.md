@@ -1,2 +1,2 @@
 # adsi-1804230
-repositorio del programa analisis y desarrollo de sistemas de informacion 
+Repositorio del programa Analisis y Desarrollo de Sistemas de Información
