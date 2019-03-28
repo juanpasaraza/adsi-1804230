@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elementos entrada HTML5</title>
+</head>
+<body>
+	<form action="method="post">
+		<h4>color</h4>
+		<input type="color" name="">
+		<h4>fecha</h4>
+		<input type="fecha">
+		<!-----emai----->
+		<h4>email</h4>
+		<input type="email"placeholder="correo electronico" required>
+		<!--------moth----->
+		<h4>mes</h4>
+		<input type="month">
+		<!------numro------>
+		<h4>numero</h4>
+		<input type="number" min="18" max="96" required>
+		<!-----rango------>
+		<h4>rango</h4>
+		<input type="range"step="50"oninput="orango.value = this.value">
+		<output id="orango"></output>
+		<!----buscar------>
+		<h4>buscar</h4>
+		<input type="search">
+		<!----tiempo---->
+		<h4>tiempo</h4>
+		<input type="time">
+		<!-----URL----->
+		<h4>URL</h4>
+		<input type="url">
+		<!---semana---->
+		<h4>semana</h4>
+		<input type="week">
+		<!-----list---->
+		<h4>lista</h4>
+		<input list="lenguajes">
+		<datalist id="lenguajes">
+		 <option value="python">python</option>
+		 <option value="ruby">ruby</option>
+		 <option value="c#">sahrp</option>
+		 <option value="php">PHP</option>
+		</datalist>
+
+		<br><br>
+		<button type="submit">validar</button>
+	</form>	
+
+
+</body>
+</html>

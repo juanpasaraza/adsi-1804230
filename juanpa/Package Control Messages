@@ -1,0 +1,131 @@
+Package Control Messages
+========================
+
+Emmet
+-----
+
+  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). 
+  
+  ******************************
+  Please restart editor 
+  to finish installation process 
+  after PyV8 was downloaded.
+  ******************************
+  
+  Tab key handler
+  ==========================
+  
+  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.
+  
+  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.
+  
+  Enter key
+  ==========================
+  
+  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).
+  
+  To disable Enter key handler, simply add the following option in your user's Preferences file:
+  
+  "disable_formatted_linebreak": true
+  
+  Actions shortcuts
+  ==========================
+  
+  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:
+  https://github.com/sergeche/emmet-sublime
+  
+  Documentation and examples:
+  http://emmet.io
+  
+  ------------------------------
+  Follow me on Twitter: @emmetio
+  ------------------------------
+
+
+Emmet Css Snippets
+------------------
+
+  
+  Emmet CSS Snippets
+  
+  Thank you for installing Emmet CSS Snippets. This package is an alternative for Emmet and a few snippet triggers were changed, please check the cheat sheet at http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/
+  
+  ## Features
+  
+  * Works with default CSS package, [LESS](https://sublime.wbond.net/packages/LESS), and [Syntax Highlighting for Sass](https://sublime.wbond.net/packages/Syntax%20Highlighting%20for%20Sass)
+  * Two versions: `has-Prefix` or `no-Prefix`
+  * Smart completion rule: propery snippes will no longer popup when you typing propery values
+  * Pseudo class completions
+  * Extra propery value completions
+  
+  ## Prefix
+  
+  If you intend to use snippets with no prefix, add `has-Prefix` into the ignored_packages list of your settings file. The other way round, if you intend to use snippets with prefix, add `no-Prefix` into the ignored_packages list.
+  
+  -------------
+  Enjoy coding!
+
+
+BracketHighlighter
+------------------
+
+  # BracketHighlighter
+  
+  Welcome to BracketHighlighter!  For a quick start guide, please go to  
+  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.
+
+
+Stylus
+------
+
+  ///////////////////////////////////////
+  //                                   //
+  //      Stylus for Sublime Text      //
+  //                                   //
+  ///////////////////////////////////////
+  
+  
+  IMPORTANT: Snippets for CSS properties
+  --------------------------------------
+  
+  Snippets for CSS properties are not provided as part of this package and Emmet or Hayaku packages should be used instead to provide this (and much more) functionality. Both choices are available via Package Control.
+  
+  If you rather use regular Sublime Text snippets for some reason, then snippets that were previously a part of Stylus package can be installed as new Sublime-Snippets package, which is also available via Package Control.
+  
+  You can learn more about packages mentioned above by following these links:
+  
+  https://github.com/sergeche/emmet-sublime
+  https://github.com/hayaku/hayaku
+  https://github.com/billymoon/Stylus-Snippets
+  
+  
+  
+  Build System Requirements
+  -------------------------
+  
+  In order for build system to work you will need stylus installed via npm and available in your PATH.
+  
+  ------------------------------------------------
+  Please report any issues with this package here:
+  https://github.com/billymoon/Stylus/issues
+  ------------------------------------------------
+
+
+Sass
+----
+
+  Sass 2.0
+  ======================
+  
+  Thank you for installing Sass for Sublime Text.
+  
+  2.0 supports things like flex-box syntax, custom properties, function snippets
+  and more for both Sass and SCSS.
+  It is now also in line with the scope naming guidelines for Sublime Text 3.0,
+  highlighting should be very similar to CSS and LESS.
+  
+  If something doesn't work for you let us know at:
+  https://github.com/braver/SublimeSass
+  
+  1.x is still available as a different package: "Syntax Highlighting for Sass":
+  https://github.com/P233/Syntax-highlighting-for-Sass
